@@ -1,6 +1,6 @@
 package atCampus02.zam.ss2022;
 
-public class RekursionApp {
+public class RekursionPrüfungBeispiel {
     public static void main(String[] args) {
    walk(5,0);
     }

@@ -1,6 +1,7 @@
 package atCampus02.zam.ss2022;
 
 public class Fraction {
+    private static int nrFractions = 0;
     private int numerator;
     private int denominator;
 
@@ -8,6 +9,17 @@ public class Fraction {
     public Fraction(int numerator, int denominator) {
         this.numerator = numerator;
         this.denominator = denominator;
+        //++ nrFractions
+        nrFractions += 1;
+    }
+
+    public static int getNrFractions() {
+        return nrFractions;
+    }
+
+    @Override
+    public String toString() {
+        return numerator + "/" + denominator;
     }
 
     public int getDenominator() {
@@ -32,7 +44,7 @@ public class Fraction {
 
         erg.numerator = erg.numerator * b2.numerator;
         erg.denominator = erg.denominator * b2.denominator;
-    return erg;
+        return erg;
     }
 }
 //    public int getNumbers(int zaehler, int nenner) {

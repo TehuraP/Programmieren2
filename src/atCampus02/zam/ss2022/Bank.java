@@ -13,6 +13,11 @@ public class Bank {
         firstAccount.deposit(100);
         System.out.println("*****");
 
+        System.out.println(firstAccount);
+        System.out.println(secondAccount);
+        System.out.println(thirdAccount);
+
+
         Account[] arrayAccount = new Account[]{firstAccount, secondAccount, thirdAccount};
         //for each loop
         for (Account a: arrayAccount) {
@@ -23,5 +28,9 @@ public class Bank {
             System.out.println(arrayAccount[i].getOwner());
             System.out.println(arrayAccount[i].getBalance());
         }
+    }
+
+    public static class HimmelRichtungEnum {
+
     }
 }

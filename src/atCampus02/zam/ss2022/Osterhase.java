@@ -1,17 +1,39 @@
 package atCampus02.zam.ss2022;
 
 public class Osterhase {
+    //this attribute is static and will be initialized only once
+    private static int haeschenZaehler = 1;
     private String name;
     private int anzahlVersteckteEier;
+    private int haeschenNummer;
+    private HasenReligion persoenlicheGlaube;
 
-    public Osterhase(String name, int anzahlVersteckteEier) {
+    public Osterhase(String name, int anzahlVersteckteEier, HasenReligion glaube) {
         this.name = name;
         this.anzahlVersteckteEier = anzahlVersteckteEier;
+        haeschenNummer = haeschenZaehler++;
+        persoenlicheGlaube = glaube;
+    }
+
+    @Override
+    public String toString() {
+        return  name + " versteckt " + anzahlVersteckteEier +
+               "  Eier und glaubt an: " + persoenlicheGlaube;
+    }
+
+    public int getHaeschenNummer() {
+        return haeschenNummer;
     }
 
     public Osterhase(String name) {
         this.name = name;
         this.anzahlVersteckteEier = 0;
+        haeschenNummer = haeschenZaehler++; //jeder Osterhase soll ein eigene eindeutige Nummer haben (wegen der Steuer)
+        //alternativer Zugriff oder von außen (wens nicht privat wäre)
+        //Osterhase.haeschenzaehler
+
+        //der Konstruktor nimmt das als Standardwert.
+        persoenlicheGlaube = HasenReligion.LANGEOHRENZEUGEN;
     }
 
     public int getAnzahlVersteckteEier() {

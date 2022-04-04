@@ -1,9 +1,13 @@
 package atCampus02.zam.ss2022;
 
 public class Account {
+    // we make it static and it will only initialized once
+    private static int uniqueID =1;
+
     private String owner;
     private String iban;
     private String bic;
+    private int accountID;
     private double balance;
 
     public Account(String owner, String iban, String bic) {
@@ -11,6 +15,19 @@ public class Account {
         this.owner = owner;
         this.iban = iban;
         this.bic = bic;
+        //it will be erhöht each time the klass is used (aufgeruft)
+        uniqueID += 1;
+    }
+
+    @Override
+    public String toString() {
+        return "Account{" +
+                "owner='" + owner + '\'' +
+                ", iban='" + iban + '\'' +
+                ", bic='" + bic + '\'' +
+                ", accountID=" + accountID +
+                ", balance=" + balance +
+                '}';
     }
 
     public double add(double wert) {
@@ -31,12 +48,11 @@ public class Account {
 //        return wert;
 //    }
 
-    public double deposit (double wert) {
+    public double deposit(double wert) {
         if (wert > 0) {
             if (wert < balance) {
                 balance = balance - wert;
-            }
-            else {
+            } else {
                 wert = balance;
                 balance = 0;
             }
@@ -45,14 +61,13 @@ public class Account {
         return 0;
     }
 
-    public double getBalance () {
+    public double getBalance() {
         return balance;
     }
-    public String getOwner () {
+
+    public String getOwner() {
         return owner;
     }
-
-
 
 
 }
