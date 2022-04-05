@@ -1,6 +1,6 @@
 package atCampus02.zam.ss2022;
 
-public enum HimmelRichtungen {
+public enum TuerHimmelRichtungen {
     NORDEM, SUEDEN, OSTEN, WESTEN
 
 }

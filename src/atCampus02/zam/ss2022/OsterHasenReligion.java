@@ -1,5 +1,5 @@
 package atCampus02.zam.ss2022;
 
-public enum HasenReligion {
+public enum OsterHasenReligion {
         ZURHEILIGENKAROTTE, EXTRABUNTEOSTEREIER, LANGEOHRENZEUGEN
 }

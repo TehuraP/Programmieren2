@@ -1,6 +1,6 @@
 package atCampus02.zam.ss2022;
 
-public class Bank {
+public class AccountAppBank {
     public static void main(String[] args) {
         Account firstAccount = new Account("Hansi", "1234566789", " fdg32874369045");
         Account secondAccount = new Account("Fluffy", "dfh4380934680", "dfkgjjk3463");

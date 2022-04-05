@@ -1,14 +1,14 @@
 package atCampus02.zam.ss2022;
 
 public class Osterhase {
-    //this attribute is static and will be initialized only once
+    //this attribute is static and will be initialized only once because it is static
     private static int haeschenZaehler = 1;
     private String name;
     private int anzahlVersteckteEier;
     private int haeschenNummer;
-    private HasenReligion persoenlicheGlaube;
+    private OsterHasenReligion persoenlicheGlaube;
 
-    public Osterhase(String name, int anzahlVersteckteEier, HasenReligion glaube) {
+    public Osterhase(String name, int anzahlVersteckteEier, OsterHasenReligion glaube) {
         this.name = name;
         this.anzahlVersteckteEier = anzahlVersteckteEier;
         haeschenNummer = haeschenZaehler++;
@@ -33,7 +33,7 @@ public class Osterhase {
         //Osterhase.haeschenzaehler
 
         //der Konstruktor nimmt das als Standardwert.
-        persoenlicheGlaube = HasenReligion.LANGEOHRENZEUGEN;
+        persoenlicheGlaube = OsterHasenReligion.LANGEOHRENZEUGEN;
     }
 
     public int getAnzahlVersteckteEier() {

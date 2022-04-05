@@ -3,9 +3,9 @@ package atCampus02.zam.ss2022;
 public class Tuer {
     private int breite;
     private int hoehe;
-    private HimmelRichtungen richtung;
+    private TuerHimmelRichtungen richtung;
 
-    public Tuer(HimmelRichtungen richtung, int breite, int hoehe) {
+    public Tuer(TuerHimmelRichtungen richtung, int breite, int hoehe) {
         this.richtung = richtung;
         this.breite = breite;
         this.hoehe = hoehe;
@@ -19,11 +19,11 @@ public class Tuer {
                 ", und schaut in der Richtung " + richtung;
     }
 
-    public HimmelRichtungen getRichtung() {
+    public TuerHimmelRichtungen getRichtung() {
         return richtung;
     }
 
-    public void setRichtung(HimmelRichtungen richtung) {
+    public void setRichtung(TuerHimmelRichtungen richtung) {
         this.richtung = richtung;
     }
 }

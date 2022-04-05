@@ -7,20 +7,20 @@ public class ArrayListDemo {
     public static void main(String[] args) {
         ArrayList<Osterhase> mauritius = new ArrayList<>(); //meine erste Collection lebt
 
-        Osterhase karl = new Osterhase("Karl von Karlingen", 1000, HasenReligion.EXTRABUNTEOSTEREIER);
-        Osterhase karla = new Osterhase("Karla Kolumna", 111, HasenReligion.ZURHEILIGENKAROTTE);
-        Osterhase uschi = new Osterhase("Uschi mit den langen Ohren", 7777, HasenReligion.LANGEOHRENZEUGEN);
+        Osterhase karl = new Osterhase("Karl von Karlingen", 1000, OsterHasenReligion.EXTRABUNTEOSTEREIER);
+        Osterhase karla = new Osterhase("Karla Kolumna", 111, OsterHasenReligion.ZURHEILIGENKAROTTE);
+        Osterhase uschi = new Osterhase("Uschi mit den langen Ohren", 7777, OsterHasenReligion.LANGEOHRENZEUGEN);
         //fügen hinten elemente hinzu
         mauritius.add(karl);
         mauritius.add(karla);
         mauritius.add(uschi);
 
-        //alle durchlaufen
+        //alle durchlaufen, size ist mit Klammern weil es eine klasse ist, kein attribut
         for (int h = 0; h < mauritius.size(); h++) {
             System.out.println(mauritius.get(h));
         }
 
-        //an welcher stelle sit die karla?
+        //an welcher stelle ist die karla?
         System.out.println(mauritius.indexOf(karla));
 
 

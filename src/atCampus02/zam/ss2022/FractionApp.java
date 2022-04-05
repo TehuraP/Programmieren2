@@ -1,6 +1,6 @@
 package atCampus02.zam.ss2022;
 
-public class BruchApp {
+public class FractionApp {
     public static void main(String[] args) {
         // Fraction fraction = new Fraction(2,3);
         Fraction fr1 = new Fraction(2, 4);

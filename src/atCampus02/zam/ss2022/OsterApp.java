@@ -2,7 +2,7 @@ package atCampus02.zam.ss2022;
 
 public class OsterApp {
     public static void main(String[] args) {
-        Osterhase dieter = new Osterhase("Dieter (aka Hansi)", 77,HasenReligion.ZURHEILIGENKAROTTE);
+        Osterhase dieter = new Osterhase("Dieter (aka Hansi)", 77, OsterHasenReligion.ZURHEILIGENKAROTTE);
         Osterhase marla = new Osterhase("Marla");
 
         System.out.println(dieter.getName());
