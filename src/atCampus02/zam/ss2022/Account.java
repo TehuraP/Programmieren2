@@ -1,5 +1,7 @@
 package atCampus02.zam.ss2022;
 
+import java.util.Objects;
+
 public class Account {
     // we make it static and it will only initialized once
     private static int uniqueID =1;
@@ -69,5 +71,16 @@ public class Account {
         return owner;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Account account = (Account) o;
+        return iban.equals(account.iban);
+    }
 
+    @Override
+    public int hashCode() {
+        return Objects.hash(iban);
+    }
 }
