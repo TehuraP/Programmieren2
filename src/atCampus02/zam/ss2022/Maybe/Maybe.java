@@ -1,4 +1,4 @@
-package atCampus02.zam.ss2022;
+package atCampus02.zam.ss2022.Maybe;
 //generische version der Klasse - der Typ T wird dann ersetzt durch konkreten Typ
 // nach erzeugung einer Instanz
 public class Maybe<T> {

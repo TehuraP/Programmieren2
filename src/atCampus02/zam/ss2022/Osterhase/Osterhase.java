@@ -1,4 +1,4 @@
-package atCampus02.zam.ss2022;
+package atCampus02.zam.ss2022.Osterhase;
 
 public class Osterhase {
     //this attribute is static and will be initialized only once because it is static

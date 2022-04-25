@@ -1,4 +1,7 @@
-package atCampus02.zam.ss2022;
+package atCampus02.zam.ss2022.Bank;
+
+import atCampus02.zam.ss2022.Osterhase.OsterHasenReligion;
+import atCampus02.zam.ss2022.Osterhase.Osterhase;
 
 import java.util.ArrayList;
 import java.util.Iterator;

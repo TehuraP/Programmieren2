@@ -1,4 +1,4 @@
-package atCampus02.zam.ss2022;
+package atCampus02.zam.ss2022.Tuer;
 
 public class Tuer {
     private int breite;

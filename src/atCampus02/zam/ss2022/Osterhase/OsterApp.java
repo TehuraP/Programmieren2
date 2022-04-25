@@ -1,4 +1,4 @@
-package atCampus02.zam.ss2022;
+package atCampus02.zam.ss2022.Osterhase;
 
 public class OsterApp {
     public static void main(String[] args) {

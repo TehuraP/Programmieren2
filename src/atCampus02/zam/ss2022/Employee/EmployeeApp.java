@@ -1,10 +1,4 @@
-package atCampus02.zam.ss2022;
-
-import a.campus02.emp.Employee;
-import a.campus02.emp.EmployeeManager;
-
-import java.lang.reflect.Array;
-import java.util.Arrays;
+package atCampus02.zam.ss2022.Employee;
 
 public class EmployeeApp {
     public static void main(String[] args) {

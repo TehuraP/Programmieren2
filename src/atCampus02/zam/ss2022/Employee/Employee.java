@@ -1,4 +1,4 @@
-package a.campus02.emp;
+package atCampus02.zam.ss2022.Employee;
 
 import java.util.Objects;
 

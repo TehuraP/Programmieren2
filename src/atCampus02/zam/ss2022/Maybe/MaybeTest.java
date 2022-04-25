@@ -1,4 +1,7 @@
-package atCampus02.zam.ss2022;
+package atCampus02.zam.ss2022.Maybe;
+
+import atCampus02.zam.ss2022.Bank.Account;
+
 //generics
 public class MaybeTest {
     public static void main(String[] args) {

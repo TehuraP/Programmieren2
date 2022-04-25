@@ -1,4 +1,4 @@
-package atCampus02.zam.ss2022;
+package atCampus02.zam.ss2022.Fraction;
 
 public class Fraction {
     private static int nrFractions = 0;

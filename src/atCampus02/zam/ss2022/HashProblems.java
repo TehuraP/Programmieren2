@@ -1,5 +1,7 @@
 package atCampus02.zam.ss2022;
 
+import atCampus02.zam.ss2022.Bank.Account;
+
 import java.util.HashSet;
 
 public class HashProblems {

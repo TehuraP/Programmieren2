@@ -1,9 +1,9 @@
-package a.campus02.emp;
+package atCampus02.zam.ss2022.Employee;
 
 
-import java.lang.reflect.Array;
+import atCampus02.zam.ss2022.Employee.Employee;
+
 import java.util.ArrayList;
-import java.util.List;
 
 public class EmployeeManager {
     //we gotta initialize the list, just like a normal array
