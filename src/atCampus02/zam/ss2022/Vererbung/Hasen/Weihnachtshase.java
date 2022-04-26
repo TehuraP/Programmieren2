@@ -8,7 +8,7 @@ public class Weihnachtshase extends Hase {
 
     @Override
     public void hoppeln() {
-        System.out.println(name +" Hoppelt durch den Schnee like a idk, something");
+        System.out.println(name +" wälzt sich durch den Schnees und bringt Geschenke");
     }
 
     public void verteileGeschenke(int geschenke) {
