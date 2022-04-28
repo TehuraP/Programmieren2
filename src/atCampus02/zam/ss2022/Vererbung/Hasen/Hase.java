@@ -3,7 +3,7 @@ package atCampus02.zam.ss2022.Vererbung.Hasen;
 public class Hase {
     public String name;
 
-    public Hase(String n) {
+    public Hase(String n)  {
         this.name = n;
     }
 
