@@ -1,5 +1,7 @@
 package atCampus02.zam.ss2022.Vererbung.Hasen;
 
+import java.util.ArrayList;
+
 public class HasenApp {
     public static void main(String[] args) {
         Osterhase oster = new Osterhase("Bugs");
@@ -74,6 +76,14 @@ public class HasenApp {
         h.hoppeln();
         wh.hoppeln();
 
+
+
+        //interface example
+        ArrayList<GoesToParty> partyPeople = new ArrayList<>();
+        partyPeople.add(wh);
+        for (GoesToParty p : partyPeople) {
+            p.party("Alcoholfreies Champagne", "Unicorn cake");
+        }
 
 
 

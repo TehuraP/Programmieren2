@@ -1,6 +1,6 @@
-package atCampus02.zam.ss2022.Vererbung.Instrumente;
-
-public class Instrument {
+package atCampus02.zam.ss2022.OrchestraAbstract.Instrumente;
+//we made it abstract so that we cant make an object only from an istrument
+public abstract class Instrument {
     protected int lautstaerke;
     protected String name;
 
@@ -10,10 +10,7 @@ public class Instrument {
 
     }
 
-    public int play() {
-        System.out.println(name + "ist " + lautstaerke + " laut ");
-        return lautstaerke;
-    }
+    public abstract int play();
 
     public int getLautstaerke() {
         return lautstaerke;

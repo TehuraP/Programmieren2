@@ -1,6 +1,6 @@
-package atCampus02.zam.ss2022.Vererbung.Instrumente;
+package atCampus02.zam.ss2022.OrchestraAbstract.Instrumente;
 
-public class Klavier  extends Instrument{
+public class Klavier  extends Instrument {
     public Klavier() {
         super(19, "Klavier");
     }

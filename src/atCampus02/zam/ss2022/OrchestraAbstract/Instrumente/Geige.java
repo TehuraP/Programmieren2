@@ -1,6 +1,6 @@
-package atCampus02.zam.ss2022.Vererbung.Instrumente;
+package atCampus02.zam.ss2022.OrchestraAbstract.Instrumente;
 
-public class Geige extends Instrument{
+public class Geige extends Instrument {
     public Geige() {
         super(10, "Geige");
     }

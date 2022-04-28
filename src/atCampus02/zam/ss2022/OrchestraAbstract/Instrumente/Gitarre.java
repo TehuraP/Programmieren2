@@ -1,4 +1,4 @@
-package atCampus02.zam.ss2022.Vererbung.Instrumente;
+package atCampus02.zam.ss2022.OrchestraAbstract.Instrumente;
 
 public class Gitarre extends Instrument {
     public Gitarre(int lautstaerke, String name) {

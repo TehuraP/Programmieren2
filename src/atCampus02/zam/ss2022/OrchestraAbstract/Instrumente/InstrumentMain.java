@@ -1,4 +1,4 @@
-package atCampus02.zam.ss2022.Vererbung.Instrumente;
+package atCampus02.zam.ss2022.OrchestraAbstract.Instrumente;
 
 public class InstrumentMain {
     public static void main(String[] args) {
@@ -7,6 +7,10 @@ public class InstrumentMain {
         Klavier klavier = new Klavier();
         Gitarre gitarre = new Gitarre(10, "Roberto");
         Orgel orgel = new Orgel();
+
+        //does not work bc abstract class
+       // Instrument i = new Instrument() {
+       // }
 
         orchestra.addInstrument(geige);
         orchestra.addInstrument(klavier);
