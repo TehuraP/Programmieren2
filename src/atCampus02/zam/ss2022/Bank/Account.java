@@ -2,9 +2,9 @@ package atCampus02.zam.ss2022.Bank;
 
 import java.util.Objects;
 
-public class Account {
+public class Account implements Comparable<Account> {
     // we make it static and it will only initialized once
-    private static int uniqueID =1;
+    private static int uniqueID = 1;
 
     private String owner;
     private String iban;
@@ -83,4 +83,12 @@ public class Account {
     public int hashCode() {
         return Objects.hash(iban);
     }
+
+    @Override
+    public int compareTo(Account o) {
+        return Integer.compare(this.accountID, o.accountID);
+    }
 }
+
+
+
